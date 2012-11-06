@@ -1,5 +1,5 @@
 export(
    # download data from eurostat 
-   getEurostatRaw, getEurostatRCV, getEurostatTOC, grepEurostatTOC
+   getEurostatRaw, getEurostatRCV, getEurostatTOC, grepEurostatTOC, getEurostatDictionary
 
 )

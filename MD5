@@ -1,11 +1,13 @@
-f1fbd3ec4f52761786bd41bdcf04a213 *DESCRIPTION
-bdcc6b2b16abcbab4755d762138435c5 *NAMESPACE
+fd71e9f48b5f6cbc6dc57079ba64b221 *DESCRIPTION
+d36444c4e4a7412b3745746c356827e5 *NAMESPACE
+16212c17970f5e90ca12eb9c6f599073 *R/getEurostatDictionary.R
 60177ca6c9dc8721d41afe15160f6eaa *R/getEurostatRCV.R
 5a660b5d1ad29dfb0e7f6f32d446b6df *R/getEurostatRaw.R
 34d4b8ae81011b8d32f3b4576385e195 *R/getEurostatTOC.R
 800a9795650a8d9df052ca4f41ddab33 *R/grepEurostatTOC.R
 efd04b11abfdebfa9c0d1e8b78731595 *R/setEurostatTOC.R
 23d586ec6323ad411712816e4c85fe49 *man/SmarterPoland-package.Rd
+22192ddc8c6253c9ffd7e4aad1747f29 *man/getEurostatDictionary.Rd
 b5e6c8295bd2f7b7c36d7d36ffe62674 *man/getEurostatRCV.Rd
 eda6244e086a2e2a6d575dbe1ee1a433 *man/getEurostatRaw.Rd
 7e19e0426d7b96ebded5f061ba82b78a *man/getEurostatTOC.Rd
