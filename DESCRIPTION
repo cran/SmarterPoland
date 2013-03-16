@@ -1,14 +1,17 @@
 Package: SmarterPoland
 Type: Package
 Title: A set of tools developed by the Foundation SmarterPoland.pl
-Version: 1.1
-Date: 2012-11-06
+Version: 1.2
+Date: 2013-03-16
 Author: Przemyslaw Biecek (Foundation SmarterPoland.pl)
 Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
 Description: Tools for accessing and processing datasets presented on
         the blog SmarterPoland.pl.
+LazyLoad: yes
+LazyData: yes
 License: GPL-3
-Depends: reshape
-Packaged: 2012-11-06 21:35:14 UTC; pbiecek
+Depends: reshape, rjson
+Packaged: 2013-03-18 16:39:00 UTC; Przemek
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-11-07 05:57:15
+Date/Publication: 2013-03-18 19:30:57

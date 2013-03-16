@@ -1,5 +1,5 @@
 getEurostatTOC <-
 function() {
   setEurostatTOC()
-  invisible(get(".eurostatTOC", envir = .GlobalEnv))
+  invisible(get(".eurostatTOC", envir = .SmarterPolandEnv))
 }
