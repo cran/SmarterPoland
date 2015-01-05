@@ -1,7 +1,7 @@
 \name{getEurostatDictionary}
 \alias{getEurostatDictionary}
 \title{
-Download a dictionary for given coded variable from Eurostat (ec.europa.eu/eurostat).
+Download a Dictionary from the Eurostat Database
 }
 \description{
 Download a dictionary for given coded variable from Eurostat (ec.europa.eu/eurostat). 
@@ -18,7 +18,7 @@ getEurostatDictionary(dictname)
 A data.frame with two columns, first with code names and second with full names.
 }
 \references{
-The TOC is downloaded from the \code{http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic....}
+The TOC is downloaded from the \code{http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=dic....}
 }
 \author{
 Przemyslaw Biecek

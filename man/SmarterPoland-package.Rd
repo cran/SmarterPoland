@@ -3,18 +3,17 @@
 \alias{SmarterPoland}
 \docType{package}
 \title{
-A set of tools developed by the Foundation SmarterPoland.pl
+Tools for Accessing Various Datasets Developed by the Foundation SmarterPoland.pl
 }
 \description{
-A set of tools developed by the Foundation SmarterPoland.pl. Among all: functions for downloading data from eurostat database ec.europa.eu/eurostat.
-
+A set of tools developed by the Foundation SmarterPoland.pl. Among all: functions for downloading data from eurostat database ec.europa.eu/eurostat, functions for downloading data from Google Maps and from GUS (Central Statistical Office of Poland).
 }
 \details{
 \tabular{ll}{
 Package: \tab SmarterPoland\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2012-09-24\cr
+Version: \tab 1.5\cr
+Date: \tab 2015-01-05\cr
 License: \tab GPL-3 \cr
 }
 }
@@ -27,11 +26,14 @@ http://www.smarterpoland.pl
 }
 \keyword{ package }
 \seealso{
- \code{\link{getEurostatRCV}}
+ \code{\link{getMillwardBrown}}, 
+ \code{\link{getEurostatRCV}}, 
+ \code{\link{getBDLseries}}, 
+ \code{\link{getWeatherForecast}}
 }
 \examples{
 \dontrun{
- # download the dataset 'Pupil/Student - teacher ratio and average class size' from eurostat
+ # download the dataset 'Pupil/Student - teacher ratio and average class' from eurostat
  tmp <- getEurostatRCV(kod = "educ_iste")
  head(tmp)
  
@@ -43,6 +45,7 @@ http://www.smarterpoland.pl
  tmp3 <- tmp2
  rownames(tmp3) <- tmp2[,1]
  tmp3 <- tmp3[c("UK", "SK", "FR", "PL", "ES", "PT", "LV"),]
- matplot(1991:2008,t(tmp3[,-1]), type="o", pch=19, lty=1, las=1, xlab="", ylab="", yaxt="n")
+ matplot(1991:2008,t(tmp3[,-1]), type="o", pch=19, lty=1, 
+ 	las=1, xlab="", ylab="", yaxt="n")
 }
 }
