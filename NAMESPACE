@@ -1,14 +1,16 @@
-import(rjson)
 import(httr)
 import(htmltools)
 import(ggplot2)
+importFrom("graphics", "abline", "legend", "par", "plot", "points", "text")
+importFrom("stats", "addmargins")
+importFrom("utils", "download.file", "read.table")
 export(
    # download data from eurostat 
    getEurostatRaw, getEurostatRCV, getEurostatTOC, grepEurostatTOC, getEurostatDictionary,
    # download data from google maps
    getGoogleMapsAddress,
    # download data from Bank Danych Lokalnych GUS (through MojePanstwo)
-   getBDLtree, getBDLsearch, getBDLseries,
+   getBDLtree, getBDLsearch, getBDLseries, getMPgminy, getMPwojewodztwa, getMPpowiaty,
    # access to weather forecasts through Dark Sky API
    getWeatherForecast,
    # access to pool results
