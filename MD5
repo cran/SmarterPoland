@@ -1,4 +1,4 @@
-477167bcad30a5f39a69afdf7c8c6222 *DESCRIPTION
+33573180db7de210daf0979c520bbfdd *DESCRIPTION
 28f0107f7e26fe46fbcbab6a3428f2bd *NAMESPACE
 678275af7fee450dff9adb93cd7d3bc4 *R/BankDanychLokalnych.R
 6c37d13f3e173e86cd12ec95b0f04312 *R/getEurostatDictionary.R
@@ -15,7 +15,6 @@ b3bfd427db31231753aecadbed4201aa *R/gradeStat.R
 61e4fbb333e4054ac6d16e28b7dbf743 *data/BDLtree.rda
 a018d338aa0a3be802ff53f2bda5f658 *data/cities_lon_lat.rda
 3ab25b02fa336dbed25dc03f8b4bde0f *data/countries.rda
-fbd1572f4cd520b7510cdab9a976963e *data/datalist
 99260988b4a39e4846202833b566ed06 *data/maturaExam.rda
 ff3329faad8741de961ce53a4c8d13cd *man/BankDanychLokalnych.Rd
 3a46a920378b472c7aa6d6d38972d151 *man/SmarterPoland-package.Rd
