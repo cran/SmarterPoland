@@ -1,13 +1,13 @@
-33573180db7de210daf0979c520bbfdd *DESCRIPTION
+7970d6c350e1800ea65850c48c128d3a *DESCRIPTION
 28f0107f7e26fe46fbcbab6a3428f2bd *NAMESPACE
-678275af7fee450dff9adb93cd7d3bc4 *R/BankDanychLokalnych.R
+833163f4d4d7d411e24f95c69ba8bf82 *R/BankDanychLokalnych.R
 6c37d13f3e173e86cd12ec95b0f04312 *R/getEurostatDictionary.R
 156eef43f1bc5d76bf7729b08c9ccef0 *R/getEurostatRCV.R
 0bd746378e4df340e943d9b759479202 *R/getEurostatRaw.R
 904c1f63b9eebfc0de8cb2c9538ee0be *R/getEurostatTOC.R
-3cc6336adaac5976720df26feb903033 *R/getGoogleMapsAddress.R
+0fadb0b6241ccd02f076e5692d420ef1 *R/getGoogleMapsAddress.R
 80c3ae6a0237801410fd27bc0858da76 *R/getMillwardBrown.R
-ffe905c01a92fb33830d8c1dd80faeba *R/getWeatherForecast.R
+d8845f7351b05cc2cc47adca09d6ad89 *R/getWeatherForecast.R
 b3bfd427db31231753aecadbed4201aa *R/gradeStat.R
 18c237a36a13b07f28060e89bdaca0e6 *R/grepEurostatTOC.R
 4f5e693778d4348297bcdbb890a051c7 *R/setEurostatTOC.R
@@ -17,7 +17,7 @@ a018d338aa0a3be802ff53f2bda5f658 *data/cities_lon_lat.rda
 3ab25b02fa336dbed25dc03f8b4bde0f *data/countries.rda
 99260988b4a39e4846202833b566ed06 *data/maturaExam.rda
 ff3329faad8741de961ce53a4c8d13cd *man/BankDanychLokalnych.Rd
-3a46a920378b472c7aa6d6d38972d151 *man/SmarterPoland-package.Rd
+91ab1583c41eee06c5f34895b024500c *man/SmarterPoland-package.Rd
 5bcaed003523bdfd26d04f2ba430fb29 *man/cities_lon_lat.Rd
 28f0d46cbaec4f3cee3a248dcdf26ffc *man/countries.Rd
 26ca3c6e1efb652753f48f0735fa8235 *man/getEurostatDictionary.Rd
